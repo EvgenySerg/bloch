@@ -24,6 +24,11 @@ public class CloseableResource implements AutoCloseable {
 
 
     @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
+    @Override
     public void close() {
         try {
             br.close();
@@ -33,3 +38,4 @@ public class CloseableResource implements AutoCloseable {
         }
     }
 }
+
