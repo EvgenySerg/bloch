@@ -1,6 +1,6 @@
 import java.lang.ref.Cleaner;
 
-public class InstanceAroundResource implements AutoCloseable {
+public class InstanceAroundResourceUsingCleaner implements AutoCloseable {
     private static final Cleaner cleaner = Cleaner.create();
     //static to not have reference to external instance private static class EncapsulatedResource implements Runnable{
     private static class EncapsulatedResource implements Runnable {
@@ -21,7 +21,7 @@ public class InstanceAroundResource implements AutoCloseable {
 
     private final Cleaner.Cleanable cleanable;
 
-    public InstanceAroundResource(String resourceId) {
+    public InstanceAroundResourceUsingCleaner(String resourceId) {
         this.state = new EncapsulatedResource("[opened :" + resourceId + "]");
         this.cleanable = cleaner.register(this, state);
     }
@@ -32,15 +32,14 @@ public class InstanceAroundResource implements AutoCloseable {
         cleanable.clean();
     }
 
-
     public static void main(String[] args) {
-        try (InstanceAroundResource r = new InstanceAroundResource("BLOG-POST")) {
+        try (InstanceAroundResourceUsingCleaner r = new InstanceAroundResourceUsingCleaner("BLOG-POST")) {
             System.out.println("Using resource1");
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        new InstanceAroundResource("UNHANDLED-RESOURCE");
+        new InstanceAroundResourceUsingCleaner("UNHANDLED-RESOURCE");
         System.out.println("r2 left alone");
 //System.gc();
     }

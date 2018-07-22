@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc91aae7-11e5-405e-9d63-582558c8fa5d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/InstanceAroundResource.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/EqualsTesting.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/bloch/CloseableResource.class" afterPath="$PROJECT_DIR$/out/production/bloch/CloseableResource.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/bloch/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/bloch/LinkedList.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/bloch/WeakReferenceTest.class" afterPath="$PROJECT_DIR$/out/production/bloch/WeakReferenceTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/bloch/theHashMap.class" afterPath="$PROJECT_DIR$/out/production/bloch/theHashMap.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/bloch/InstanceAroundResource$EncapsulatedResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/bloch/InstanceAroundResource.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/CloseableResource.java" afterPath="$PROJECT_DIR$/src/CloseableResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/theHashMap.java" afterPath="$PROJECT_DIR$/src/theHashMap.java" />
+      <change beforePath="$PROJECT_DIR$/src/InstanceAroundResource.java" afterPath="$PROJECT_DIR$/src/InstanceAroundResourceUsingCleaner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="CloseableResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CloseableResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="174">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +32,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstanceAroundResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InstanceAroundResource.java">
+      <file leaf-file-name="EqualsTesting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EqualsTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstanceAroundResourceUsingCleaner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstanceAroundResourceUsingCleaner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cleaner.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/ref/Cleaner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="216" column="21" lean-forward="false" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +102,13 @@
         <option value="$PROJECT_DIR$/src/SoftReferenceTest.java" />
         <option value="$PROJECT_DIR$/src/WeakReferenceTest.java" />
         <option value="$PROJECT_DIR$/resouces/file.txt" />
-        <option value="$PROJECT_DIR$/src/CloseableResource.java" />
         <option value="$PROJECT_DIR$/src/sdfsdf.java" />
         <option value="$PROJECT_DIR$/src/theHashMap.java" />
         <option value="$PROJECT_DIR$/src/InstanceAroundResource.java" />
+        <option value="$PROJECT_DIR$/src/InstanceAroundResourceUדןמעCךקשמקר.java" />
+        <option value="$PROJECT_DIR$/src/InstanceAroundResourceUsingCleaner.java" />
+        <option value="$PROJECT_DIR$/src/CloseableResource.java" />
+        <option value="$PROJECT_DIR$/src/EqualsTesting.java" />
       </list>
     </option>
   </component>
@@ -160,10 +181,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InstanceAroundResource">
+  <component name="RunManager" selected="Application.EqualsTesting">
     <configuration name="CloseableResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CloseableResource" />
@@ -192,9 +213,23 @@
       <module name="bloch" />
       <envs />
     </configuration>
-    <configuration name="InstanceAroundResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EqualsTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="InstanceAroundResource" />
+      <option name="MAIN_CLASS_NAME" value="EqualsTesting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bloch" />
+      <envs />
+    </configuration>
+    <configuration name="InstanceAroundResourceUsingCleaner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="InstanceAroundResourceUsingCleaner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -234,34 +269,20 @@
       <module name="bloch" />
       <envs />
     </configuration>
-    <configuration name="WeakReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WeakReferenceTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bloch" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WeakReferenceTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MemoreLeaks" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TheSoftReference" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CloseableResource" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InstanceAroundResource" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MemoreLeaks" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TheSoftReference" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CloseableResource" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InstanceAroundResourceUsingCleaner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EqualsTesting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InstanceAroundResource" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EqualsTesting" />
         <item index="1" class="java.lang.String" itemvalue="Application.CloseableResource" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TheSoftReference" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MemoreLeaks" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WeakReferenceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InstanceAroundResourceUsingCleaner" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TheSoftReference" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MemoreLeaks" />
       </list>
     </recent_temporary>
   </component>
@@ -282,12 +303,12 @@
       <workItem from="1531652107206" duration="113000" />
       <workItem from="1531845354006" duration="2271000" />
       <workItem from="1531847660506" duration="12869000" />
-      <workItem from="1531927810434" duration="3305000" />
+      <workItem from="1531927810434" duration="13688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34296000" />
+    <option name="totallyTimeSpent" value="44679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1044" extended-state="6" />
@@ -301,12 +322,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2814238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17908788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1724138" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11176471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32459894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -365,7 +386,7 @@
         <state relative-caret-position="450">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -390,7 +411,7 @@
         <state relative-caret-position="450">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,7 +428,7 @@
         <state relative-caret-position="465">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -437,7 +458,7 @@
         <state relative-caret-position="176">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,24 +476,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Closeable.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Reader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/BufferedReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/CloseableResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/ref/Cleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="216" column="21" lean-forward="false" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -481,14 +484,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstanceAroundResource.java">
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/ref/Cleaner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="382">
+          <caret line="216" column="21" lean-forward="false" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstanceAroundResourceUsingCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CloseableResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="731" column="77" lean-forward="false" selection-start-line="731" selection-start-column="72" selection-end-line="731" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EqualsTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +569,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

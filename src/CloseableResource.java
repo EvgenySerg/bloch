@@ -5,13 +5,11 @@ public class CloseableResource implements AutoCloseable {
     private static BufferedReader br;
 
     public static void main(String[] args) {
-
         try (CloseableResource c = new CloseableResource()) {
             System.out.println(CloseableResource.br.readLine());
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     private CloseableResource() {
@@ -23,10 +21,10 @@ public class CloseableResource implements AutoCloseable {
     }
 
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
+//    @Override
+//    protected void finalize() throws Throwable {
+//        super.finalize();
+//    }
 
     @Override
     public void close() {
